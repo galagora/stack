@@ -22,6 +22,8 @@ ghc-options:
 extra-deps:
 - rio-0.1.19.0@rev:0
 - rio-prettyprint-0.1.1.0@rev:0
+- github: commercialhaskell/pantry
+  commit: 10faa92918c3ba528be6e9ae4aa60105080b867f
 
 drop-packages:
 # See https://github.com/commercialhaskell/stack/pull/4712
