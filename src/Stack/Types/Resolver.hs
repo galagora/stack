@@ -27,6 +27,7 @@ import           Data.Time (Day)
 import           Options.Applicative (ReadM)
 import qualified Options.Applicative.Types as OA
 import           Stack.Prelude
+import           Stack.Ls
 
 -- | Either an actual resolver value, or an abstract description of one (e.g.,
 -- latest nightly).
